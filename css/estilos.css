@@ -323,7 +323,55 @@
       }
   }
   
-  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: #f5f5f5;
+} 
+
+.contenedor{
+    width: 100;
+    max-width:1000px ;
+    margin: auto;
+    padding: 60px;
+    background: #fff;
+    margin-top: 50px;
+} 
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 100;
+}
+.sub-titulo{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contenedor img{
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin-right: 0px;
+    margin-bottom:0px ;
+
+}
+
+.contenedor p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight:100 ;
+    margin-top: 20px;
+
+}    
+
+
+
   
   
     
